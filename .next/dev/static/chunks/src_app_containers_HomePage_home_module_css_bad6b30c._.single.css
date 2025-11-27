@@ -1,0 +1,17 @@
+/* [project]/src/app/containers/HomePage/home.module.css [app-client] (css) */
+.home-module__ElHk5q__container {
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 3rem;
+  display: grid;
+}
+
+.home-module__ElHk5q__headingCategory {
+  font-size: var(--font-size-large);
+  padding: var(--spacing-medium) 0;
+}
+
+.home-module__ElHk5q__headingCategory span {
+  color: var(--color-secondary);
+}
+
+/*# sourceMappingURL=src_app_containers_HomePage_home_module_css_bad6b30c._.single.css.map*/

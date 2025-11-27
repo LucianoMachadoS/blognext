@@ -1,0 +1,27 @@
+/* [project]/src/app/components/PostCard/postCard.module.css [app-client] (css) */
+.postCard-module__ykOlBa__postCard {
+  transition: opacity .3s ease-in-out;
+}
+
+.postCard-module__ykOlBa__postCard:hover {
+  opacity: .8;
+}
+
+.postCard-module__ykOlBa__postCardCover {
+  margin-bottom: var(--spacing-small);
+}
+
+.postCard-module__ykOlBa__postCardCover img {
+  width: 100%;
+  display: block;
+}
+
+.postCard-module__ykOlBa__PostCardHeading {
+  font-size: var(--font-size-medium);
+}
+
+.postCard-module__ykOlBa__PostCardHeading a {
+  color: var(--color-darkGray);
+}
+
+/*# sourceMappingURL=src_app_components_PostCard_postCard_module_css_bad6b30c._.single.css.map*/

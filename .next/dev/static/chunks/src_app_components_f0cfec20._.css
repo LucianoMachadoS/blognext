@@ -1,0 +1,82 @@
+/* [project]/src/app/components/Comments/comments.module.css [app-client] (css) */
+.comments-module__2FOlXG__component {
+  margin: var(--font-size-superlarge) 0;
+}
+
+/* [project]/src/app/components/Footer/footer.module.css [app-client] (css) */
+.footer-module__XhqkKq__footer {
+  color: var(--color-gray);
+  font-size: var(--font-size-small);
+  justify-content: center;
+  margin: auto;
+  display: flex;
+}
+
+/* [project]/src/app/components/Header/header.module.css [app-client] (css) */
+.header-module__IYDVEW__header {
+  background: var(--color-primary);
+  color: var(--color-white);
+  font-size: var(--font-size-large);
+  padding: var(--spacing-medium) 0;
+  justify-content: center;
+  display: flex;
+}
+
+/* [project]/src/app/components/Heading/heading.module.css [app-client] (css) */
+.heading-module__9Crdja__heading {
+  font-size: var(--font-size-superlarge);
+  margin: var(--spacing-large) 0;
+  text-align: center;
+}
+
+/* [project]/src/app/components/MainContainer/maincontainer.module.css [app-client] (css) */
+.maincontainer-module__-tv_Fa__main {
+  max-width: 80rem;
+  font-size: var(--font-size-medium);
+  padding: var(--spacing-medium);
+  margin: 0 auto;
+}
+
+/* [project]/src/app/components/PostContainer/postContainer.module.css [app-client] (css) */
+.postContainer-module__Qr733G__postContainer img {
+  max-width: 100%;
+}
+
+.postContainer-module__Qr733G__postContainer p {
+  margin: var(--spacing-medium) 0;
+}
+
+.postContainer-module__Qr733G__postContainer ul, .postContainer-module__Qr733G__postContainer ol {
+  margin-top: var(--spacing-medium);
+}
+
+.postContainer-module__Qr733G__postContainer pre {
+  background: var(--color-lightGray);
+  width: 100%;
+  color: var(--color-darkGray);
+  padding: var(--spacing-large);
+  margin: var(--spacing-large) 0;
+  line-height: 1.5;
+  font-size: var(--font-size-medium);
+  overflow-x: auto;
+}
+
+/* [project]/src/app/components/PostCover/post-cover.module.css [app-client] (css) */
+.post-cover-module__BR6alW__img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: var(--spacing-medium);
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+/* [project]/src/app/components/PostDetails/postDetails.module.css [app-client] (css) */
+.postDetails-module__w65sia__postDetails {
+  color: var(--color-gray);
+  font-size: var(--font-size-small);
+  margin: var(--spacing-medium);
+  font-style: italic;
+}
+
+/*# sourceMappingURL=src_app_components_f0cfec20._.css.map*/

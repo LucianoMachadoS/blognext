@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/src/app/components/PostCard/postCard.module.css"],"sourcesContent":[".postCard {\r\n  transition: opacity 300ms ease-in-out;\r\n\r\n  &:hover {\r\n    opacity: 0.8;\r\n  }\r\n}\r\n.postCardCover {\r\n  margin-bottom: var(--spacing-small);\r\n\r\n  img {\r\n    width: 100%;\r\n    display: block;\r\n  }\r\n}\r\n.PostCardHeading {\r\n  font-size: var(--font-size-medium);\r\n\r\n  a {\r\n    color: var(--color-darkGray);\r\n  }\r\n}\r\n"],"names":[],"mappings":"AAAA;;;;AAGE;;;;AAIF;;;;AAGE;;;;;AAKF;;;;AAGE"}}]
+}

@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/src/app/components/PostDetails/postDetails.module.css"],"sourcesContent":[".postDetails {\r\n  color: var(--color-gray);\r\n  font-size: var(--font-size-small);\r\n  margin: var(--spacing-medium);\r\n  font-style: italic;\r\n}\r\n\r\n.linkCategory {\r\n  cursor: pointer;\r\n  color: var(--color-secondary);\r\n}\r\n"],"names":[],"mappings":"AAAA;;;;;;;AAOA"}}]
+}

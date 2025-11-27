@@ -1,0 +1,14 @@
+/* [project]/src/app/components/PostDetails/postDetails.module.css [app-client] (css) */
+.postDetails-module__w65sia__postDetails {
+  color: var(--color-gray);
+  font-size: var(--font-size-small);
+  margin: var(--spacing-medium);
+  font-style: italic;
+}
+
+.postDetails-module__w65sia__linkCategory {
+  cursor: pointer;
+  color: var(--color-secondary);
+}
+
+/*# sourceMappingURL=src_app_components_PostDetails_postDetails_module_css_bad6b30c._.single.css.map*/

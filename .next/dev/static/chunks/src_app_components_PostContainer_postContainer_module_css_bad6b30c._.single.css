@@ -1,0 +1,39 @@
+/* [project]/src/app/components/PostContainer/postContainer.module.css [app-client] (css) */
+.postContainer-module__Qr733G__postContainer img {
+  max-width: 100%;
+}
+
+.postContainer-module__Qr733G__postContainer h1 {
+  font-size: var(--font-size-large);
+  text-align: center;
+}
+
+.postContainer-module__Qr733G__postContainer h2 {
+  font-size: var(--font-size-medium);
+  margin-top: 10px;
+}
+
+.postContainer-module__Qr733G__postContainer p {
+  margin: var(--spacing-medium) 0;
+  font-size: var(--font-size-small);
+}
+
+.postContainer-module__Qr733G__postContainer ul, .postContainer-module__Qr733G__postContainer ol {
+  margin-top: var(--spacing-medium);
+  padding-left: var(--spacing-medium);
+  padding-bottom: var(--spacing-small);
+  font-size: var(--font-size-small);
+}
+
+.postContainer-module__Qr733G__postContainer pre {
+  background: var(--color-lightGray);
+  width: 100%;
+  color: var(--color-darkGray);
+  padding: var(--spacing-large);
+  margin: var(--spacing-large) 0;
+  line-height: 1.5;
+  font-size: var(--font-size-small);
+  overflow-x: auto;
+}
+
+/*# sourceMappingURL=src_app_components_PostContainer_postContainer_module_css_bad6b30c._.single.css.map*/

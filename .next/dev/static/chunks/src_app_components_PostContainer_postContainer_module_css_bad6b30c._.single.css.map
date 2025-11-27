@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/src/app/components/PostContainer/postContainer.module.css"],"sourcesContent":[".postContainer {\r\n  img {\r\n    max-width: 100%;\r\n  }\r\n\r\n  h1 {\r\n    font-size: var(--font-size-large);\r\n    text-align: center;\r\n  }\r\n\r\n  h2 {\r\n    margin-top: 10px;\r\n    font-size: var(--font-size-medium);\r\n  }\r\n\r\n  p {\r\n    margin: var(--spacing-medium) 0;\r\n    font-size: var(--font-size-small);\r\n  }\r\n\r\n  ul,\r\n  ol {\r\n    margin-top: var(--spacing-medium);\r\n    padding-left: var(--spacing-medium);\r\n    padding-bottom: var(--spacing-small);\r\n    font-size: var(--font-size-small);\r\n  }\r\n\r\n  pre {\r\n    width: 100%;\r\n    overflow-x: auto;\r\n    background: var(--color-lightGray);\r\n    color: var(--color-darkGray);\r\n    padding: var(--spacing-large);\r\n    margin: var(--spacing-large) 0;\r\n    line-height: 1.5;\r\n    font-size: var(--font-size-small);\r\n  }\r\n}\r\n"],"names":[],"mappings":"AACE;;;;AAIA;;;;;AAKA;;;;;AAKA;;;;;AAKA;;;;;;;AAQA"}}]
+}

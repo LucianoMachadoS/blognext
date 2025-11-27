@@ -1,0 +1,66 @@
+:root {
+  /* Cores */
+  --color-primary: #010101;
+  --color-secondary: #005b96;
+  --color-white: #fafafa;
+  --color-lightGray: #dddddd;
+  --color-gray: #999999;
+  --color-darkGray: #333333;
+
+  /* Spacings */
+  --spacing-small: 1rem;
+  --spacing-medium: 2rem;
+  --spacing-large: 3rem;
+
+  /* Font Sizes */
+  --font-size-small: 1.2rem;
+  --font-size-medium: 1.8rem;
+  --font-size-large: 2rem;
+  --font-size-superlarge: 4rem;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 62.5%;
+  font-size: var(--font-medium);
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  outline: 0;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+a {
+  color: var(--secondary);
+  text-decoration: none;
+  transition: opacity 300ms ease-in-out;
+
+  &:hover {
+    opacity: 0.6s;
+  }
+}
+
+#cusdis_thread {
+  width: 100%;
+}
+
+/* Força o iframe a não ter bordas e ocupar a largura total */
+#cusdis_thread iframe {
+  width: 100% !important;
+  border: none !important;
+  display: block !important;
+
+  /* Opcional: Se a rolagem for mínima (coisa de 1px ou 2px), isso esconde */
+  overflow: hidden !important;
+}

@@ -1,0 +1,15 @@
+/* [project]/src/app/containers/HomePage/home.module.css [app-client] (css) */
+
+
+/* [project]/src/app/components/Header/header.module.css [app-client] (css) */
+.header-module__IYDVEW__header {
+  background: var(--color-primary);
+  color: var(--color-white);
+  font-size: var(--font-size-large);
+  padding: var(--spacing-medium);
+  justify-content: center;
+  margin: auto;
+  display: flex;
+}
+
+/*# sourceMappingURL=src_app_52dc1e12._.css.map*/

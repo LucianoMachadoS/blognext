@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/gabrs/OneDrive/%C3%81rea%20de%20Trabalho/blog-next/src/app/not-found.module.css"],"sourcesContent":[".container {\r\n  display: 'flex';\r\n  height: '100vh';\r\n  text-align: 'center';\r\n  padding: 10%;\r\n  gap: '1rem';\r\n  text-align: center;\r\n  font-size: var(--font-size-large);\r\n}\r\n\r\n.link {\r\n  color: 'var(--color-primary)';\r\n  text-decoration: 'underline';\r\n  font-size: var(--font-size-small);\r\n}\r\n"],"names":[],"mappings":"AAAA;;;;;;;;;;AAUA"}}]
+}

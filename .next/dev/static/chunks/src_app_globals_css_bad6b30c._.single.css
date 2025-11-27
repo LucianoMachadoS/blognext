@@ -1,0 +1,60 @@
+/* [project]/src/app/globals.css [app-client] (css) */
+:root {
+  --color-primary: #010101;
+  --color-secondary: #005b96;
+  --color-white: #fafafa;
+  --color-lightGray: #ddd;
+  --color-gray: #999;
+  --color-darkGray: #333;
+  --spacing-small: 1rem;
+  --spacing-medium: 2rem;
+  --spacing-large: 3rem;
+  --font-size-small: 1.2rem;
+  --font-size-medium: 1.8rem;
+  --font-size-large: 2rem;
+  --font-size-superlarge: 4rem;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 62.5%;
+  font-size: var(--font-medium);
+}
+
+* {
+  box-sizing: border-box;
+  outline: 0;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+a {
+  color: var(--secondary);
+  text-decoration: none;
+  transition: opacity .3s ease-in-out;
+}
+
+a:hover {
+  opacity: .6s;
+}
+
+#cusdis_thread {
+  width: 100%;
+}
+
+#cusdis_thread iframe {
+  border: none !important;
+  width: 100% !important;
+  display: block !important;
+  overflow: hidden !important;
+}
+
+/*# sourceMappingURL=src_app_globals_css_bad6b30c._.single.css.map*/

@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 14, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/gabrs/OneDrive/%C3%81rea%20de%20Trabalho/blog-next/src/app/page.tsx"],"sourcesContent":["import { PostData } from '@/domain/posts/post';\r\n\r\nexport default async function Home() {\r\n  const data = await fetch('http://localhost:1337/api/posts?populate=*');\r\n  const { data: posts } = await data.json();\r\n\r\n  return (\r\n    <main>\r\n      {posts.map((post: PostData) => (\r\n        <h2 key={post.slug}>{post.title}</h2>\r\n      ))}\r\n    </main>\r\n  );\r\n}\r\n"],"names":[],"mappings":";;;;;;AAEe,eAAe;IAC5B,MAAM,OAAO,MAAM,MAAM;IACzB,MAAM,EAAE,MAAM,KAAK,EAAE,GAAG,MAAM,KAAK,IAAI;IAEvC,qBACE,8OAAC;kBACE,MAAM,GAAG,CAAC,CAAC,qBACV,8OAAC;0BAAoB,KAAK,KAAK;eAAtB,KAAK,IAAI;;;;;;;;;;AAI1B"}}]
+}

@@ -1,0 +1,16 @@
+/* [project]/src/app/components/Pagination/pagination.module.css [app-client] (css) */
+.pagination-module__TS_Q2G__pagination {
+  width: 100%;
+  margin: var(--spacing-large) 0;
+  color: var(--color-secondary);
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+.pagination-module__TS_Q2G__info {
+  font-size: var(--font-size-small);
+  color: var(--color-gray);
+}
+
+/*# sourceMappingURL=src_app_components_Pagination_pagination_module_css_bad6b30c._.single.css.map*/

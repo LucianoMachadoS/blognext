@@ -1,0 +1,27 @@
+/* [project]/src/app/containers/HomePage/home.module.css [app-client] (css) */
+.home-module__ElHk5q__container {
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 3rem;
+  display: grid;
+}
+
+/* [project]/src/app/components/Header/header.module.css [app-client] (css) */
+.header-module__IYDVEW__header {
+  background: var(--color-primary);
+  color: var(--color-white);
+  font-size: var(--font-size-large);
+  padding: var(--spacing-medium);
+  justify-content: center;
+  margin: auto;
+  display: flex;
+}
+
+/* [project]/src/app/components/MainContainer/maincontainer.module.css [app-client] (css) */
+.maincontainer-module__-tv_Fa__main {
+  max-width: 96rem;
+  font-size: var(--font-size-medium);
+  padding: var(--spacing-medium);
+  margin: 0 auto;
+}
+
+/*# sourceMappingURL=src_app_24ac4b47._.css.map*/

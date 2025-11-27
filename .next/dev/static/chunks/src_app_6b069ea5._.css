@@ -1,0 +1,92 @@
+/* [project]/src/app/containers/HomePage/home.module.css [app-client] (css) */
+.home-module__ElHk5q__container {
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 3rem;
+  display: grid;
+}
+
+.home-module__ElHk5q__headingCategory {
+  font-size: var(--font-size-large);
+  padding: var(--spacing-medium) 0;
+}
+
+.home-module__ElHk5q__headingCategory span {
+  color: var(--color-secondary);
+}
+
+/* [project]/src/app/components/Header/header.module.css [app-client] (css) */
+.header-module__IYDVEW__header {
+  background: var(--color-primary);
+  color: var(--color-white);
+  font-size: var(--font-size-large);
+  padding: var(--spacing-medium) 0;
+  justify-content: center;
+  display: flex;
+}
+
+/* [project]/src/app/components/MainContainer/maincontainer.module.css [app-client] (css) */
+.maincontainer-module__-tv_Fa__main {
+  max-width: 80rem;
+  font-size: var(--font-size-medium);
+  padding: var(--spacing-medium);
+  margin: 0 auto;
+}
+
+/* [project]/src/app/components/PostCard/postCard.module.css [app-client] (css) */
+.postCard-module__ykOlBa__postCard {
+  transition: opacity .3s ease-in-out;
+}
+
+.postCard-module__ykOlBa__postCard:hover {
+  opacity: .8;
+}
+
+.postCard-module__ykOlBa__postCardCover {
+  margin-bottom: var(--spacing-small);
+}
+
+.postCard-module__ykOlBa__postCardCover img {
+  width: 100%;
+  display: block;
+}
+
+.postCard-module__ykOlBa__PostCardHeading {
+  font-size: var(--font-size-medium);
+}
+
+.postCard-module__ykOlBa__PostCardHeading a {
+  color: var(--color-darkGray);
+}
+
+/* [project]/src/app/components/Footer/footer.module.css [app-client] (css) */
+.footer-module__XhqkKq__footer {
+  color: var(--color-gray);
+  font-size: var(--font-size-small);
+  justify-content: center;
+  margin: auto;
+  display: flex;
+}
+
+/* [project]/src/app/components/Heading/heading.module.css [app-client] (css) */
+.heading-module__9Crdja__heading {
+  font-size: var(--font-size-superlarge);
+  margin: var(--spacing-large) 0;
+  text-align: center;
+}
+
+/* [project]/src/app/components/Pagination/pagination.module.css [app-client] (css) */
+.pagination-module__TS_Q2G__pagination {
+  width: 100%;
+  margin: var(--spacing-large) 0;
+  color: var(--color-secondary);
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+.pagination-module__TS_Q2G__info {
+  font-size: var(--font-size-small);
+  color: var(--color-gray);
+}
+
+/*# sourceMappingURL=src_app_6b069ea5._.css.map*/

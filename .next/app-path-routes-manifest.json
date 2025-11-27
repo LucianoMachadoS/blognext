@@ -1,0 +1,9 @@
+{
+  "/_global-error/page": "/_global-error",
+  "/_not-found/page": "/_not-found",
+  "/category/[name]/page": "/category/[name]",
+  "/category/[name]/page/[pageNumberCategory]/page": "/category/[name]/page/[pageNumberCategory]",
+  "/page": "/",
+  "/page/[pageNumber]/page": "/page/[pageNumber]",
+  "/post/[slug]/page": "/post/[slug]"
+}

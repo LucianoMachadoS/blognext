@@ -1,0 +1,39 @@
+.postContainer {
+  img {
+    max-width: 100%;
+  }
+
+  h1 {
+    font-size: var(--font-size-large);
+    text-align: center;
+  }
+
+  h2 {
+    margin-top: 10px;
+    font-size: var(--font-size-medium);
+  }
+
+  p {
+    margin: var(--spacing-medium) 0;
+    font-size: var(--font-size-small);
+  }
+
+  ul,
+  ol {
+    margin-top: var(--spacing-medium);
+    padding-left: var(--spacing-medium);
+    padding-bottom: var(--spacing-small);
+    font-size: var(--font-size-small);
+  }
+
+  pre {
+    width: 100%;
+    overflow-x: auto;
+    background: var(--color-lightGray);
+    color: var(--color-darkGray);
+    padding: var(--spacing-large);
+    margin: var(--spacing-large) 0;
+    line-height: 1.5;
+    font-size: var(--font-size-small);
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 14, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/gabrs/OneDrive/%C3%81rea%20de%20Trabalho/blog-next/src/app/data/posts/get-all-posts.ts"],"sourcesContent":["import { PostData } from '@/domain/posts/post';\r\n\r\nexport const getAllPosts = async (): Promise<PostData[]> => {\r\n  const res = await fetch('http://localhost:1337/api/posts?populate=*');\r\n  const { data: posts } = await res.json();\r\n  return posts;\r\n};\r\n"],"names":[],"mappings":";;;;AAEO,MAAM,cAAc;IACzB,MAAM,MAAM,MAAM,MAAM;IACxB,MAAM,EAAE,MAAM,KAAK,EAAE,GAAG,MAAM,IAAI,IAAI;IACtC,OAAO;AACT"}},
+    {"offset": {"line": 27, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/gabrs/OneDrive/%C3%81rea%20de%20Trabalho/blog-next/src/app/page.tsx"],"sourcesContent":["import { PostData } from '@/domain/posts/post';\r\nimport { getAllPosts } from './data/posts/get-all-posts';\r\n\r\nexport default async function Home() {\r\n  const posts = await getAllPosts();\r\n\r\n  return (\r\n    <main>\r\n      {posts.map((post: PostData) => (\r\n        <h2 key={post.slug}>{post.title}</h2>\r\n      ))}\r\n    </main>\r\n  );\r\n}\r\n"],"names":[],"mappings":";;;;;AACA;;;AAEe,eAAe;IAC5B,MAAM,QAAQ,MAAM,IAAA,iKAAW;IAE/B,qBACE,8OAAC;kBACE,MAAM,GAAG,CAAC,CAAC,qBACV,8OAAC;0BAAoB,KAAK,KAAK;eAAtB,KAAK,IAAI;;;;;;;;;;AAI1B"}}]
+}

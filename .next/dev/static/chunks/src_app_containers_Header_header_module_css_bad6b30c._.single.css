@@ -1,0 +1,12 @@
+/* [project]/src/app/containers/Header/header.module.css [app-client] (css) */
+.header-module__QeAJqW__header {
+  background: var(--color-primary);
+  color: var(--color-white);
+  font-size: var(--font-size-large);
+  padding: var(--spacing-medium);
+  justify-content: center;
+  margin: auto;
+  display: flex;
+}
+
+/*# sourceMappingURL=src_app_containers_Header_header_module_css_bad6b30c._.single.css.map*/

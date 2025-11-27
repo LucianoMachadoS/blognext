@@ -1,0 +1,289 @@
+[00:00:01.320] Server  LOG      ✓ Ready in 940ms
+[00:00:09.277] Browser WARN    Image with src "https://res.cloudinary.com/dovxqgpit/image/upload/v1763931467/carro_f9c26a3250.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:00:09.277] Browser WARN    Image with src "https://res.cloudinary.com/dovxqgpit/image/upload/v1763931467/carro_f9c26a3250.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:24.348] Browser WARN    Image with src "https://res.cloudinary.com/dovxqgpit/image/upload/v1763929772/cachorro_e_vertebrado_ou_invertebrado2_f0bcbee316.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:24.348] Browser WARN    Image with src "https://res.cloudinary.com/dovxqgpit/image/upload/v1763929826/bebida_85d947481c.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:07:03.235] Server  ERROR    ⨯ ./src/app/category/[name]/page.tsx:5:1
+Module not found: Can't resolve '@/app/data/categpries/get-all-categories'
+  3 | import { notFound } from 'next/navigation';
+  4 | import { Metadata } from 'next';
+> 5 | import { getAllCategories } from '@/app/data/categpries/get-all-categories';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | type Props = {
+  8 |   params: Promise<{ name: string }>;
+
+Import map: aliased to relative './src/app/data/categpries/get-all-categories' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:07:03.238] Server  ERROR    ⨯ ./src/app/category/[name]/page.tsx:5:1
+Module not found: Can't resolve '@/app/data/categpries/get-all-categories'
+  3 | import { notFound } from 'next/navigation';
+  4 | import { Metadata } from 'next';
+> 5 | import { getAllCategories } from '@/app/data/categpries/get-all-categories';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | type Props = {
+  8 |   params: Promise<{ name: string }>;
+
+Import map: aliased to relative './src/app/data/categpries/get-all-categories' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:07:03.241] Server  ERROR    ⨯ ./src/app/category/[name]/page.tsx:5:1
+Module not found: Can't resolve '@/app/data/categpries/get-all-categories'
+  3 | import { notFound } from 'next/navigation';
+  4 | import { Metadata } from 'next';
+> 5 | import { getAllCategories } from '@/app/data/categpries/get-all-categories';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | type Props = {
+  8 |   params: Promise<{ name: string }>;
+
+Import map: aliased to relative './src/app/data/categpries/get-all-categories' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:07:03.244] Server  ERROR    ⨯ ./src/app/category/[name]/page.tsx:5:1
+Module not found: Can't resolve '@/app/data/categpries/get-all-categories'
+  3 | import { notFound } from 'next/navigation';
+  4 | import { Metadata } from 'next';
+> 5 | import { getAllCategories } from '@/app/data/categpries/get-all-categories';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | type Props = {
+  8 |   params: Promise<{ name: string }>;
+
+Import map: aliased to relative './src/app/data/categpries/get-all-categories' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:07:03.247] Server  ERROR    ⨯ ./src/app/category/[name]/page.tsx:5:1
+Module not found: Can't resolve '@/app/data/categpries/get-all-categories'
+  3 | import { notFound } from 'next/navigation';
+  4 | import { Metadata } from 'next';
+> 5 | import { getAllCategories } from '@/app/data/categpries/get-all-categories';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | type Props = {
+  8 |   params: Promise<{ name: string }>;
+
+Import map: aliased to relative './src/app/data/categpries/get-all-categories' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:07:03.250] Server  ERROR    ⨯ ./src/app/category/[name]/page.tsx:5:1
+Module not found: Can't resolve '@/app/data/categpries/get-all-categories'
+  3 | import { notFound } from 'next/navigation';
+  4 | import { Metadata } from 'next';
+> 5 | import { getAllCategories } from '@/app/data/categpries/get-all-categories';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | type Props = {
+  8 |   params: Promise<{ name: string }>;
+
+Import map: aliased to relative './src/app/data/categpries/get-all-categories' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:07:03.253] Server  ERROR    ⨯ ./src/app/category/[name]/page.tsx:5:1
+Module not found: Can't resolve '@/app/data/categpries/get-all-categories'
+  3 | import { notFound } from 'next/navigation';
+  4 | import { Metadata } from 'next';
+> 5 | import { getAllCategories } from '@/app/data/categpries/get-all-categories';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | type Props = {
+  8 |   params: Promise<{ name: string }>;
+
+Import map: aliased to relative './src/app/data/categpries/get-all-categories' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:07:03.255] Server  ERROR    ⨯ ./src/app/category/[name]/page.tsx:5:1
+Module not found: Can't resolve '@/app/data/categpries/get-all-categories'
+  3 | import { notFound } from 'next/navigation';
+  4 | import { Metadata } from 'next';
+> 5 | import { getAllCategories } from '@/app/data/categpries/get-all-categories';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | type Props = {
+  8 |   params: Promise<{ name: string }>;
+
+Import map: aliased to relative './src/app/data/categpries/get-all-categories' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:07:03.258] Server  ERROR    ⨯ ./src/app/category/[name]/page.tsx:5:1
+Module not found: Can't resolve '@/app/data/categpries/get-all-categories'
+  3 | import { notFound } from 'next/navigation';
+  4 | import { Metadata } from 'next';
+> 5 | import { getAllCategories } from '@/app/data/categpries/get-all-categories';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | type Props = {
+  8 |   params: Promise<{ name: string }>;
+
+Import map: aliased to relative './src/app/data/categpries/get-all-categories' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:07:03.260] Server  ERROR    ⨯ ./src/app/category/[name]/page.tsx:5:1
+Module not found: Can't resolve '@/app/data/categpries/get-all-categories'
+  3 | import { notFound } from 'next/navigation';
+  4 | import { Metadata } from 'next';
+> 5 | import { getAllCategories } from '@/app/data/categpries/get-all-categories';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | type Props = {
+  8 |   params: Promise<{ name: string }>;
+
+Import map: aliased to relative './src/app/data/categpries/get-all-categories' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:07:03.263] Server  ERROR    ⨯ ./src/app/category/[name]/page.tsx:5:1
+Module not found: Can't resolve '@/app/data/categpries/get-all-categories'
+  3 | import { notFound } from 'next/navigation';
+  4 | import { Metadata } from 'next';
+> 5 | import { getAllCategories } from '@/app/data/categpries/get-all-categories';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | type Props = {
+  8 |   params: Promise<{ name: string }>;
+
+Import map: aliased to relative './src/app/data/categpries/get-all-categories' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:07:03.266] Server  ERROR    ⨯ ./src/app/category/[name]/page.tsx:5:1
+Module not found: Can't resolve '@/app/data/categpries/get-all-categories'
+  3 | import { notFound } from 'next/navigation';
+  4 | import { Metadata } from 'next';
+> 5 | import { getAllCategories } from '@/app/data/categpries/get-all-categories';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | type Props = {
+  8 |   params: Promise<{ name: string }>;
+
+Import map: aliased to relative './src/app/data/categpries/get-all-categories' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:07:03.719] Browser ERROR   ./src/app/category/[name]/page.tsx:5:1
+Module not found: Can't resolve '@/app/data/categpries/get-all-categories'
+  3 | import { notFound } from 'next/navigation';
+  4 | import { Metadata } from 'next';
+> 5 | import { getAllCategories } from '@/app/data/categpries/get-all-categories';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | type Props = {
+  8 |   params: Promise<{ name: string }>;
+
+Import map: aliased to relative './src/app/data/categpries/get-all-categories' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found
+[00:07:05.823] Server  LOG      ✓ Compiled in 21ms
+[00:22:55.717] Browser ERROR   ./src/app/components/Pagination/index.tsx:41:13
+Parsing ecmascript source code failed
+  39 |           Próxima
+  40 |         </Link>
+> 41 |       <span className={styles.info}>
+     |             ^^^^^^^^^
+  42 |         Página {page} de {pageCount}
+  43 |       </span>
+  44 |       )}
+
+Expected '</', got 'className'
+
+Import trace:
+  Server Component:
+    ./src/app/components/Pagination/index.tsx
+    ./src/app/containers/HomePage/index.tsx
+    ./src/app/category/[name]/page.tsx
+[00:23:04.849] Server  LOG      ✓ Compiled in 8ms
+[00:26:17.192] Browser WARN    Image with src "https://res.cloudinary.com/dovxqgpit/image/upload/v1763931467/carro_f9c26a3250.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:26:20.977] Browser WARN    Image with src "https://res.cloudinary.com/dovxqgpit/image/upload/v1763929772/cachorro_e_vertebrado_ou_invertebrado2_f0bcbee316.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:29:16.456] Browser WARN    Image with src "https://res.cloudinary.com/dovxqgpit/image/upload/v1763929772/cachorro_e_vertebrado_ou_invertebrado2_f0bcbee316.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:29:21.403] Browser WARN    Image with src "https://res.cloudinary.com/dovxqgpit/image/upload/v1763929772/cachorro_e_vertebrado_ou_invertebrado2_f0bcbee316.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:29:34.261] Server  LOG      ✓ Compiled in 4ms
+[00:29:40.521] Browser WARN    Image with src "https://res.cloudinary.com/dovxqgpit/image/upload/v1763929772/cachorro_e_vertebrado_ou_invertebrado2_f0bcbee316.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:29:40.521] Browser WARN    Image with src "https://res.cloudinary.com/dovxqgpit/image/upload/v1763929772/cachorro_e_vertebrado_ou_invertebrado2_f0bcbee316.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:42:13.713] Browser WARN    Image with src "https://res.cloudinary.com/dovxqgpit/image/upload/v1763929772/cachorro_e_vertebrado_ou_invertebrado2_f0bcbee316.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:00:28.474] Browser WARN    Image with src "https://res.cloudinary.com/dovxqgpit/image/upload/v1763929826/bebida_85d947481c.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[01:00:28.474] Browser WARN    Image with src "https://res.cloudinary.com/dovxqgpit/image/upload/v1763929826/bebida_85d947481c.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:01:33.792] Server  LOG      ✓ Compiled in 6ms
+[01:08:23.283] Server  LOG      ✓ Compiled in 4ms
+[01:08:32.469] Server  LOG      ✓ Compiled in 3ms
+[01:08:50.871] Server  LOG      ✓ Compiled in 4ms
+[01:09:12.979] Server  LOG      ✓ Compiled in 5ms
+[01:10:53.712] Server  LOG      ✓ Compiled in 10ms
+[01:10:54.718] Browser ERROR   ./src/app/components/Pagination/pagination.module.css:9:8
+Parsing CSS source code failed
+   7 |   color: var(--color-secondary)
+   8 |
+>  9 |   span {
+     |        ^
+  10 |     font-size: var(--font-size-small);
+  11 |     color: var(--color-gray);
+  12 |   }
+
+Unexpected token CurlyBracketBlock
+
+Import trace:
+  Server Component:
+    ./src/app/components/Pagination/pagination.module.css
+    ./src/app/components/Pagination/index.tsx
+    ./src/app/containers/HomePage/index.tsx
+    ./src/app/category/[name]/page.tsx
+[01:11:12.720] Browser ERROR   ./src/app/components/Pagination/pagination.module.css:9:9
+Parsing CSS source code failed
+   7 |   color: var(--color-secondary)
+   8 |
+>  9 |   .info {
+     |         ^
+  10 |     font-size: var(--font-size-small);
+  11 |     color: var(--color-gray);
+  12 |   }
+
+Unexpected token CurlyBracketBlock
+
+Import trace:
+  Server Component:
+    ./src/app/components/Pagination/pagination.module.css
+    ./src/app/components/Pagination/index.tsx
+    ./src/app/containers/HomePage/index.tsx
+    ./src/app/category/[name]/page.tsx
+[01:12:06.651] Server  LOG      ✓ Compiled in 10ms
+[01:12:25.329] Server  LOG      ✓ Compiled in 3ms
+[01:19:09.063] Browser WARN    Image with src "https://res.cloudinary.com/dovxqgpit/image/upload/v1763931467/carro_f9c26a3250.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:27:42.453] Browser WARN    Image with src "https://res.cloudinary.com/dovxqgpit/image/upload/v1763929772/cachorro_e_vertebrado_ou_invertebrado2_f0bcbee316.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
