@@ -24,6 +24,9 @@ export async function fetchAPI(
     // 3. Faz o fetch nativo
     const response = await fetch(requestUrl, {
       ...options,
+      next: {
+        revalidate: 60,
+      },
     });
 
     const data = await response.json();
